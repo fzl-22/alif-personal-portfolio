@@ -1,17 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FirstSection />
+  <SecondSection />
+  <ThirdSection />
+  <FourthSection />
+  <FooterSection />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FirstSection from './components/FirstSection.vue';
+import SecondSection from './components/SecondSection.vue';
+import ThirdSection from './components/ThirdSection.vue';
+import FourthSection from './components/FourthSection.vue';
+import FooterSection from './components/FooterSection.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    FirstSection,
+    SecondSection,
+    ThirdSection,
+    FourthSection,
+    FooterSection,
+  },
+};
 </script>
 
 <style>
