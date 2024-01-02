@@ -9,7 +9,7 @@
         <v-container>
             <v-row class="skill-row">
                 <v-col class="image-skill">
-                    <img class="image" src="../assets/skills.jpg" alt="Skills" />
+                    <img class="image" src="../assets/skills.png" alt="Skills" />
                 </v-col>
                 <v-col class="text-skill">
                     <h3>My Skills</h3>
