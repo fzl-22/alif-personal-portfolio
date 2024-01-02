@@ -78,7 +78,7 @@ export default {
 
 #end-section {
   background-color: #0c3325;
-  padding: 0px 30%;
+  padding: 24px 0px;
 }
 
 #logo-section > img {
