@@ -64,7 +64,7 @@ export default {
 
 <style>
 .skill {
-  background-image: url('../assets/background2.png');
+  /* background-image: url('../assets/background2.png'); */
   background-size: cover;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

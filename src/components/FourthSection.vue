@@ -41,8 +41,8 @@ export default {
 
 <style>
 .type-container{
-  margin-top: 125px;
-  margin-bottom: 125px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   width: 100%;
   display: flex;
   flex-direction: column;
