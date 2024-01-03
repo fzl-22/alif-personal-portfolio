@@ -1,39 +1,37 @@
 <template>
-  <div>
-    <art />
-  </div>
+  <FirstSection />
+  <SecondSection />
+  <ThirdSection />
+  <FourthSection />
+  <FooterSection />
 </template>
 
-<script setup>
-import art from '@/components/art.vue';
+<script>
+import FirstSection from './components/FirstSection.vue';
+import SecondSection from './components/SecondSection.vue';
+import ThirdSection from './components/ThirdSection.vue';
+import FourthSection from './components/FourthSection.vue';
+import FooterSection from './components/FooterSection.vue';
+
+export default {
+  name: 'App',
+  components: {
+    FirstSection,
+    SecondSection,
+    ThirdSection,
+    FourthSection,
+    FooterSection,
+  },
+};
 </script>
 
-
-<!-- <style scoped>
-header {
-  line-height: 1.5;
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style> -->
+</style>
