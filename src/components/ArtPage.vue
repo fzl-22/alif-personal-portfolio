@@ -1,7 +1,13 @@
 <template>
   <div class="art-container">
-    <segitiga1 class="segitiga1" />
-    <segitiga2 class="segitiga2" />
+    <svg xmlns="http://www.w3.org/2000/svg" width="462" height="819" viewBox="0 0 462 819" fill="none">
+        <path d="M0 819L6.10352e-05 0L462 0L0 819Z" fill="#2D2D2D"/>
+    </svg>
+    <div class="triangle-background">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1333" height="2342" viewBox="0 0 1333 2342" fill="none">
+          <path d="M1333 0L1333 2342H0L1333 0Z" fill="#2D2D2D"/>
+      </svg>
+    </div>
 
     <div class="title-container">
       <h1>My Completion Work</h1>
@@ -43,9 +49,11 @@
   </div>
 </template>
 
-<script setup>
-import segitiga1 from '@/components/shape/segitiga1.vue';
-import segitiga2 from '@/components/shape/segitiga2.vue';
+<script>
+
+export default {
+  name: 'ArtPage',
+}
 </script>
 
 <style scoped>
@@ -169,4 +177,12 @@ h2 {
     padding: 2rem 4rem;
   }
 }
+.triangle-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
 </style>
