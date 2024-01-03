@@ -1,37 +1,32 @@
 # Alif Personal Portfolio
 
-This is the source code of Alif's Personal Portfolio intended to be submitted as the final project of Interface-based Programming course. This team is consisting of these members:
+Repositori ini berisi source code dari project Alif's Personal Portfolio. Project ini dikerjakan oleh tim yang beranggotakan sebagai berikut:
 
-- AHMAD MU'MIN FAISAL
-- FADHLAN SYAHRAN JUNGJUNGAN
-- FAJRUL FALAH ARRAFI
-- ALIF RIZKY
-- FIRMAN ARIEF
+| NIM        | Nama                       |
+| ---------- | -------------------------- |
+| 1203210101 | AHMAD MU'MIN FAISAL        |
+| 1203210129 | FADHLAN SYAHRAN JUNGJUNGAN |
+| 1203210109 | FAJRUL FALAH ARRAFI        |
+| 1203210133 | ALIF RIZKY                 |
+| 1203210110 | FIRMAN ARIEF               |
 
-## Clone repository
+## Cara Menjalankan Project
+
+Untuk menjalankan project ini, clone repositori ini terlebih dahulu ke local device.
+
 ```
 git clone git@github.com:fzl-22/alif-personal-portfolio.git
 ```
 
-## Project setup
+Kemudian, install package-package yang dibutuhkan.
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Setelah itu, jalankan project dalam mode development.
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
