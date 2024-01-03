@@ -63,11 +63,9 @@ export default {
 </template>
 
 <style>
-body {
+.skill {
   background-image: url('../assets/background2.png');
-  background: cover;
   background-size: cover;
-  min-height: 100vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
