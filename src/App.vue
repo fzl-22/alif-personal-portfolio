@@ -1,13 +1,31 @@
 <template>
   <FirstSection />
-  <SecondSection />
+  <Biodata />
   <ThirdSection />
-  <FourthSection />
+  <ArtPage />
   <FooterSection />
 </template>
 
-<script setup>
-import art from '@/components/art.vue';
+<script>
+import ArtPage from './components/ArtPage.vue';
+import Biodata from './components/Biodata.vue';
+import FirstSection from './components/FirstSection.vue';
+import FooterSection from './components/FooterSection.vue';
+import ThirdSection from './components/ThirdSection.vue';
+
+
+export default {
+  name: 'App',
+  components: {
+    Biodata,
+    ThirdSection,
+    ArtPage,
+    FooterSection,
+    FirstSection
+  }
+}
+
+
 </script>
 
 

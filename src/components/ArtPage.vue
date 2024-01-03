@@ -19,8 +19,8 @@
         <div class="title-and-images">
           <h2 class="tema1">UI Design</h2>
           <div class="image-container">
-            <img alt="Vue logo" class="logo" src="./Image/Socmed.png" width="125" height="125" />
-            <img alt="Vue logo" class="gambar" src="./Image/UI_Mobile.png" width="250" height="125" />
+            <img alt="Vue logo" class="logo" src="../assets/Socmed.png" width="125" height="125" />
+            <img alt="Vue logo" class="gambar" src="../assets/UI_Mobile.png" width="250" height="125" />
           </div>
         </div>
       </div>
@@ -31,9 +31,9 @@
     <div class="theme theme2">
       <h2>Non-UI Design</h2>
       <div class="images">
-        <img alt="Vue logo" class="gambar" src="./Image/Whitespace.png" width="250" height="125" />
-        <img alt="Vue logo" class="gambar" src="./Image/BGbiru.png" width="250" height="125" />
-        <img alt="Vue logo" class="gambar" src="./Image/Knots.jpeg" width="250" height="125" />
+        <img alt="Vue logo" class="gambar" src="../assets/Whitespace.png" width="250" height="125" />
+        <img alt="Vue logo" class="gambar" src="../assets/BGbiru.png" width="250" height="125" />
+        <img alt="Vue logo" class="gambar" src="../assets/Knots.jpeg" width="250" height="125" />
       </div>
     </div>
 
@@ -42,8 +42,8 @@
     <div class="theme theme3">
       <h2>Drawing Art</h2>
       <div class="images">
-        <img alt="Vue logo" class="logo" src="./Image/Anime.jpeg" width="125" height="125" />
-        <img alt="Vue logo" class="logo" src="./Image/Clock.jpeg" width="125" height="125" />
+        <img alt="Vue logo" class="logo" src="../assets/Anime.jpeg" width="125" height="125" />
+        <img alt="Vue logo" class="logo" src="../assets/Clock.jpeg" width="125" height="125" />
       </div>
     </div>
   </div>
