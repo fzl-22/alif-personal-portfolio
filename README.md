@@ -10,6 +10,8 @@ Repositori ini berisi source code dari project Alif's Personal Portfolio. Projec
 | 1203210133 | ALIF RIZKY                 |
 | 1203210110 | FIRMAN ARIEF               |
 
+Laporan Akhir dapat diakses di [LAPORAN.pdf](./LAPORAN.pdf)
+
 ## Cara Menjalankan Project
 
 Untuk menjalankan project ini, clone repositori ini terlebih dahulu ke local device.
